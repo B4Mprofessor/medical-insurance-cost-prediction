@@ -1,0 +1,40 @@
+artifact_path: file:///c:/Users/absah/Desktop/medical-insurance-cost-prediction/notebooks/mlruns/235569368557977378/models/m-da6037e7c5fb4e4daa85f238cf329b83/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.0
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.1
+is_signature_from_type_hint: false
+mlflow_version: 3.2.0
+model_id: m-da6037e7c5fb4e4daa85f238cf329b83
+model_size_bytes: 2556
+model_uuid: m-da6037e7c5fb4e4daa85f238cf329b83
+prompts: null
+run_id: cb261fcdb1784aa0a30fbbee5c7d63ee
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "long", "name": "age", "required": true}, {"type": "double",
+    "name": "bmi", "required": true}, {"type": "long", "name": "children", "required":
+    true}, {"type": "boolean", "name": "sex_male", "required": true}, {"type": "boolean",
+    "name": "smoker_yes", "required": true}, {"type": "boolean", "name": "region_northwest",
+    "required": true}, {"type": "boolean", "name": "region_southeast", "required":
+    true}, {"type": "boolean", "name": "region_southwest", "required": true}, {"type":
+    "long", "name": "age_smoker", "required": true}, {"type": "double", "name": "bmi_smoker",
+    "required": true}, {"type": "double", "name": "age_bmi", "required": true}]'
+  outputs: '[{"type": "double", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-08-07 04:35:46.607101'

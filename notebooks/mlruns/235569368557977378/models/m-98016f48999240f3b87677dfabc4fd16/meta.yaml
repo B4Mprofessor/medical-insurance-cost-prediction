@@ -1,0 +1,10 @@
+artifact_location: file:///c:/Users/absah/Desktop/medical-insurance-cost-prediction/notebooks/mlruns/235569368557977378/models/m-98016f48999240f3b87677dfabc4fd16/artifacts
+creation_timestamp: 1754541341770
+experiment_id: '235569368557977378'
+last_updated_timestamp: 1754541346384
+model_id: m-98016f48999240f3b87677dfabc4fd16
+model_type: null
+name: model
+source_run_id: 8a781e4b2e4c4d509a765dda2b8c0ee3
+status: 2
+status_message: null

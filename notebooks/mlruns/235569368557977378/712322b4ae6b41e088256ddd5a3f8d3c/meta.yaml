@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/absah/Desktop/medical-insurance-cost-prediction/notebooks/mlruns/235569368557977378/712322b4ae6b41e088256ddd5a3f8d3c/artifacts
+end_time: 1754509949302
+entry_point_name: ''
+experiment_id: '235569368557977378'
+lifecycle_stage: active
+run_id: 712322b4ae6b41e088256ddd5a3f8d3c
+run_name: Linear_Regression_Baseline
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754509943969
+status: 3
+tags: []
+user_id: SHEAFFER
