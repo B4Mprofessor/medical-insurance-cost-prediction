@@ -24,28 +24,6 @@ The goal is to develop an accurate and reliable model that can estimate insuranc
 - **Web Framework:** Streamlit
 - **Visualization:** Plotly
 
-## Project Structure
-
-medical-insurance-cost-prediction/
-│
-├── data/
-│ ├── raw/
-│ │ └── medical_insurance.csv # Original dataset
-│ └── processed/
-│ └── medical_insurance_processed.csv # Processed dataset (created by notebook)
-│
-├── notebooks/
-│ ├── 01_eda.ipynb # Exploratory Data Analysis
-│ └── 02_model_training.ipynb # Model Training, Evaluation, and MLflow Integration
-│
-├── mlruns/ # MLflow local tracking directory (created after running notebooks)
-│
-├── app.py # Main Streamlit web application file
-│
-├── requirements.txt # List of required Python packages (create this, see below)
-│
-└── README.md # This file
-
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine.
