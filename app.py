@@ -205,3 +205,4 @@ st.plotly_chart(fig_region, use_container_width=True)
 # Footer
 st.markdown("---")
 st.markdown("Developed with ❤️ using Streamlit and MLflow")
+
