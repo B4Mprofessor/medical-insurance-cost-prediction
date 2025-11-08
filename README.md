@@ -94,7 +94,7 @@ The goal is to build a regression model that accurately estimates medical insura
 1.  **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/<your-username>/medical-insurance-cost-prediction.git
+    git clone https://github.com/B4Mprofessor/medical-insurance-cost-prediction.git
     cd medical-insurance-cost-prediction
     ```
 
@@ -147,10 +147,6 @@ The goal is to build a regression model that accurately estimates medical insura
   - **Solution:** Explicitly set the MLflow tracking URI in `app.py` to point to the local `mlruns` directory relative to the script's location.
 - **Challenge:** Schema enforcement error in MLflow when making predictions due to data type mismatches (e.g., integer vs. boolean for encoded features).
   - **Solution:** Ensured the preprocessing pipeline in `app.py` explicitly converted relevant encoded columns to the `bool` data type before passing them to the model.
-
-## Author
-
-[Your Name] - [Your Email (optional)]
 
 ---
 
